@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.one{
+
+    height: 370px;
+    width: 400px;
+    background-color: gold;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+
+}
+
+ 
+
+
+.two i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    top: 0.7in;
+    font-size: 50px;
+    left: 7.0in;
+}
+.childthree
+{
+    position: relative;
+    left: 185px;
+    top : -80px;
+    height : auto;
+    width: 10;
+    transition : 0.5s;
+}
+/* #pic{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 145px;
+    position: fixed;
+    top: 0.5in;
+    right: 6.7in;
+    animation-direction: alternate;
+    animation: varsha 1.5s infinite;
+
+} */
+
+
+
+h4{
+    font-family: poppins, sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 700;
+    position: fixed;
+    top: 2.2in;
+    text-align: center;
+    visibility: visible; 
+    
+  
+}
+   
+p{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    width: 399px;
+    left: 5.4in;
+    position: fixed;
+    top: 2.7in;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+
+}
+
+
+
+.sir{
+    margin-left: 190px;
+    position: relative;
+    width: 395px;
+    height: 310px;
+    top: 60px;
+    left: 0.8in;
+    rotate: -4deg;
+    z-index: 1;
+}
+
+.sir{
+  
+    position: relative;
+    margin: 20px 20px;
+}
+
+
+
+.child{
+    position: absolute;
+    transform: scale(0);
+    transition: 0.5s;
+
+}
+
+
+div:hover .child{
+     transform: scale(1.3);
+}
+div:hover .childthree
+{
+    left:  130px;
+}
+
+
+
+
+.sir-two{
+
+    margin-left: 190px;
+    position: relative;
+    width: 500px;
+    height:450px;
+    top: 1.0in;
+   right: 2.5in;
+    rotate: -5deg;
+    z-index: 1;
+    font-weight: 200;
+    
+
+}
+
+
+.sir-two{
+  
+    position: relative;
+    margin: 20px 20px;
+}
+
+
+
+.child-two{
+    position: absolute;
+    transform: scale(0);
+    transition: 0.2s;
+
+}
+
+
+div:hover .child-two{
+     transform: scale(1.3);
+}
+
